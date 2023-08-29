@@ -1,0 +1,60 @@
+No.     Time           Source                Destination           Protocol Length Info
+     23 0.904304157    127.0.0.1             127.0.0.1             UDP      56     33084 → 12345 Len=14
+
+Frame 23: 56 bytes on wire (448 bits), 56 bytes captured (448 bits) on interface lo, id 0
+    Section number: 1
+    Interface id: 0 (lo)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 29, 2023 11:01:44.716576021 EDT
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1693321304.716576021 seconds
+    [Time delta from previous captured frame: 0.036477108 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 0.904304157 seconds]
+    Frame Number: 23
+    Frame Length: 56 bytes (448 bits)
+    Capture Length: 56 bytes (448 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:data]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 33084, Dst Port: 12345
+Data (14 bytes)
+
+0000  48 65 6c 6c 6f 2c 20 73 65 72 76 65 72 21         Hello, server!
+    Data: 48656c6c6f2c2073657276657221
+    [Length: 14]
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 0.907062750    127.0.0.1             127.0.0.1             UDP      73     12345 → 33084 Len=31
+
+Frame 24: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface lo, id 0
+    Section number: 1
+    Interface id: 0 (lo)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 29, 2023 11:01:44.719334614 EDT
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1693321304.719334614 seconds
+    [Time delta from previous captured frame: 0.002758593 seconds]
+    [Time delta from previous displayed frame: 0.002758593 seconds]
+    [Time since reference or first frame: 0.907062750 seconds]
+    Frame Number: 24
+    Frame Length: 73 bytes (584 bits)
+    Capture Length: 73 bytes (584 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:data]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+User Datagram Protocol, Src Port: 12345, Dst Port: 33084
+Data (31 bytes)
+
+0000  53 65 72 76 65 72 20 72 65 63 65 69 76 65 64 3a   Server received:
+0010  20 48 65 6c 6c 6f 2c 20 73 65 72 76 65 72 21       Hello, server!
+    Data: 5365727665722072656365697665643a2048656c6c6f2c2073657276657221
+    [Length: 31]

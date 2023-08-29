@@ -3,6 +3,10 @@ import java.net.ServerSocket;
 import java.net.Socket;
 public class TcpSampleServer {
     public static void main(String[] args) {
+        extracted();
+    }
+
+    private static void extracted() {
         try {
             // Create a server socket
             ServerSocket serverSocket = new ServerSocket(12345);
@@ -30,10 +34,10 @@ public class TcpSampleServer {
             }
 
             // Close resources
-            reader.close();
-            writer.close();
-            clientSocket.close();
-            serverSocket.close();
+            //reader.close();
+            //writer.close();
+            //clientSocket.close();
+            //serverSocket.close();
         } catch (IOException e) {
             e.printStackTrace();
         }

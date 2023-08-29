@@ -1,0 +1,18 @@
+No.     Time           Source                Destination           Protocol Length Info
+     26 1.189822719    127.0.0.1             127.0.0.1             HTTP     168    GET / HTTP/1.1 
+
+Frame 26: 168 bytes on wire (1344 bits), 168 bytes captured (1344 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 37076, Dst Port: 8080, Seq: 1, Ack: 1, Len: 102
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 1.273333734    127.0.0.1             127.0.0.1             HTTP     99     HTTP/1.1 200 OK 
+
+Frame 30: 99 bytes on wire (792 bits), 99 bytes captured (792 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 8080, Dst Port: 37076, Seq: 77, Ack: 103, Len: 33
+[2 Reassembled TCP Segments (109 bytes): #28(76), #30(33)]
+Hypertext Transfer Protocol
